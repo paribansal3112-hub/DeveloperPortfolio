@@ -25,3 +25,14 @@ Screenshots for all tasks are in the [Screenshots/](Screenshots/) folder.
 
 ### backup.sh Demo
 ![Backup Demo](Screenshots/backup_demo.png)# DeveloperPortfolio
+
+## Question 3: GitHub Repository & API Interaction
+
+### GitHub Profile (jq)
+![GitHub jq](Screenshots/q3_github_jq.png)
+
+### JSONPlaceholder Posts Count
+![Posts Count](Screenshots/q3_posts_count.png)
+
+### HTTP Status Codes
+![Status Codes](Screenshots/q3_status_codes.png)
