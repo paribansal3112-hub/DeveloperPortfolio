@@ -1,0 +1,62 @@
+===== ls -la ~ =====
+total 92
+drwxr-x--- 11 parisha parisha  4096 Nov 22 14:49 .
+drwxr-xr-x  3 root    root     4096 Oct  8 09:43 ..
+-rw-------  1 parisha parisha 19487 Nov 22 14:48 .bash_history
+-rw-r--r--  1 parisha parisha   220 Oct  7 14:30 .bash_logout
+-rw-r--r--  1 parisha parisha  3771 Oct  7 14:30 .bashrc
+drwxr-x---  4 parisha parisha  4096 Oct  8 09:33 .cache
+drwxr-x---  4 parisha parisha  4096 Oct 21 07:40 .config
+-rw-------  1 parisha parisha    79 Nov 21 20:59 .git-credentials
+-rw-r--r--  1 parisha parisha   118 Nov 20 13:42 .gitconfig
+drwxr-xr-x  2 parisha parisha  4096 Oct  8 09:33 .landscape
+-rw-------  1 parisha parisha    20 Oct 31 20:53 .lesshst
+drwx------  3 parisha parisha  4096 Oct 23 09:03 .local
+-rw-r--r--  1 parisha parisha     0 Nov 22 14:37 .motd_shown
+-rw-r--r--  1 parisha parisha   807 Oct  7 14:30 .profile
+drwxr-xr-x  5 parisha parisha  4096 Nov 22 14:50 DeveloperPortfolio
+drwxr-xr-x  7 parisha parisha  4096 Oct 23 09:53 Downloads
+drwxr-xr-x  2 parisha parisha  4096 Oct 23 09:51 cse103_backups
+drwxr-xr-x  4 parisha parisha  4096 Oct 31 13:42 cse103_lab
+drwxr-xr-x  3 parisha parisha  4096 Nov 21 20:57 developer-portfolio
+
+===== ps aux | head -10 =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.1  24284 15428 ?        Ss   14:48   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  14:48   0:00 /init
+root           3  0.0  0.0   3680  2220 hvc0     S+   14:48   0:00 init-watcher
+root           9  0.0  0.0   3820  2292 hvc0     Sl+  14:48   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          52  0.0  0.2  50576 20128 ?        S<s  14:48   0:00 /usr/lib/systemd/systemd-journald
+systemd+      69  0.0  0.1  22416 14436 ?        Ss   14:48   0:00 /usr/lib/systemd/systemd-resolved
+root          94  0.1  0.1  34640 12128 ?        Ss   14:48   0:00 /usr/lib/systemd/systemd-udevd
+root         137  0.0  0.0   2888  1948 ?        Ss   14:48   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         141  0.0  0.0   4472  3124 ?        Ss   14:48   0:00 /usr/sbin/cron -f -P
+
+===== df -h =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         116G   81G   36G  70% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G   36K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  3.4M  3.9G   1% /init
+none            3.9G  516K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             116G   81G   36G  70% /mnt/c
+D:\             180G  104M  180G   1% /mnt/d
+E:\             181G   99M  180G   1% /mnt/e
+tmpfs           3.9G     0  3.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           787M   12K  787M   1% /run/user/1000
+
+===== free -h =====
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       505Mi       7.1Gi       4.1Mi       221Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
