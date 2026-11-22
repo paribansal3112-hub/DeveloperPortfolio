@@ -1,0 +1,26 @@
+==============================================================
+                 SYSTEM INFORMATION REPORT
+==============================================================
+Name     : Parisha Bansal
+Roll No  : YOUR_ROLL_NO
+Date     : 22-11-2026 17:51:27
+==============================================================
+
+[ CPU INFORMATION ]
+CPU Model        : Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+Physical Cores   : 4
+Logical CPUs     : 8
+
+[ MEMORY INFORMATION ]
+Total Memory     : 7.7Gi
+Used Memory      : 497Mi
+
+[ TOP 3 PROCESSES BY CPU USAGE ]
+PID      USER         %CPU   %MEM   COMMAND
+89       root         0.2    0.1    systemd-udevd
+1419     parisha      0.0    0.0    awk
+1418     parisha      0.0    0.0    head
+
+==============================================================
+Report generated successfully.
+==============================================================
