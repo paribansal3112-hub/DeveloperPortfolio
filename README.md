@@ -36,3 +36,8 @@ Screenshots for all tasks are in the [Screenshots/](Screenshots/) folder.
 
 ### HTTP Status Codes
 ![Status Codes](Screenshots/q3_status_codes.png)
+
+## Question 4: Developer Portfolio & Career Roadmap
+
+- [Technical Resume (PDF)](Portfolio/resume.pdf)
+- [Learning Roadmap](Portfolio/learning_roadmap.md)
