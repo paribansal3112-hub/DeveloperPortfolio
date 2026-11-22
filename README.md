@@ -41,3 +41,14 @@ Screenshots for all tasks are in the [Screenshots/](Screenshots/) folder.
 
 - [Technical Resume (PDF)](Portfolio/resume.pdf)
 - [Learning Roadmap](Portfolio/learning_roadmap.md)
+
+### Live Portfolio Website
+🌐 https://paribansal3112-hub.github.io/DeveloperPortfolio
+
+![Live Website](Screenshots/q4_website_live.png)
+
+### GitHub Profile
+![GitHub Profile](Screenshots/github_profile.png)
+
+### LinkedIn Profile
+![LinkedIn Profile](Screenshots/linkedin_profile.png)
